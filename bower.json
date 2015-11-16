@@ -38,7 +38,7 @@
   "dependencies": {
     "jquery": ">= 1.7.2",
 		"jquery-mousewheel": ">= 3.1.13",
-		"date-functions": "~0.0.1"
+		"datejs": "~1.0.0-rc3"
   },
   "authors": [
     {
