@@ -2364,9 +2364,10 @@
     }
 
 }));
+
 Date.parseDate = function( input, format ){
   return Date.parseExact(input, format);
 };
 Date.prototype.dateFormat = function( format ){
-  return Date.toString(format);
+  return this.toString(format);
 };
